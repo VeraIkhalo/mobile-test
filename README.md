@@ -1,0 +1,3 @@
+-To view this project, clone the project from github,
+-Install all dependencies using 'npm install'
+-Then run 'npm start'
