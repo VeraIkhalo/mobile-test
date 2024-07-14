@@ -8,7 +8,7 @@ import {
 import React, { useState } from "react";
 import Footer from "../components/Footer";
 
-const fifthscreen = () => {
+const FifthScreen = () => {
   const [firstNumber, setFirstNumber] = useState("");
 
   const handleNumberPress = (buttonValue) => {
@@ -233,4 +233,4 @@ const fifthscreen = () => {
   );
 };
 
-export default fifthscreen;
+export default FifthScreen;

@@ -1,7 +1,7 @@
 import { Text, TouchableOpacity, View } from "react-native";
 import React from "react";
 
-const modal = () => {
+const Modal = () => {
   return (
     <View className="bg-white rounded-2xl p-6 border border-grey-400 w-[80%] m-auto">
       <Text className="text-black-100 mb-3 font-isemibold">Invalid Number</Text>
@@ -16,4 +16,4 @@ const modal = () => {
   );
 };
 
-export default modal;
+export default Modal;

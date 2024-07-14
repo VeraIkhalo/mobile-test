@@ -1,7 +1,7 @@
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-const Home = () => {
+const Outgoingcallsone = () => {
   return (
     <SafeAreaView>
       <View
@@ -112,4 +112,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Outgoingcallsone;

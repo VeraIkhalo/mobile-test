@@ -7,10 +7,8 @@ import {
 } from "react-native";
 import React, { useState } from "react";
 import Footer from "../components/Footer";
-import Digits from "../components/Digits";
-import EnterDigit from "../components/EnterDigit";
 
-const fourthscreen = () => {
+const FourthScreen = () => {
   const [firstNumber, setFirstNumber] = useState("");
 
   const handleNumberPress = (buttonValue) => {
@@ -235,4 +233,4 @@ const fourthscreen = () => {
   );
 };
 
-export default fourthscreen;
+export default FourthScreen;

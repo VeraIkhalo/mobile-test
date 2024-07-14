@@ -9,7 +9,8 @@ module.exports = {
           100: "#232323",
           200: "#A5A5A5",
           300: "#383838",
-          400: "#5E5E5E"
+          400: "#5E5E5E",
+          500: "#4F4F4F",
         },
         green:{
           100: "#E9FFC7",
@@ -22,6 +23,9 @@ module.exports = {
           300: "#7C7C7C",
           400: "#ECECEC",
           
+        },
+        red:{
+          100: "#FD3C2E"
         }
       },
       fontFamily: {
