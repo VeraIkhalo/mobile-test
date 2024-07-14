@@ -1,7 +1,7 @@
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-const Outgoingcallsone = () => {
+const OutgoingCallsOne = () => {
   return (
     <SafeAreaView>
       <View
@@ -22,9 +22,7 @@ const Outgoingcallsone = () => {
           <Text className="text-black-100 font-isemibold text-2xl">
             +1-2059276258
           </Text>
-          <Text className="text-black-500 font-isemibold text-sm">
-            Houston, TX
-          </Text>
+          <Text className="text-black-500 text-sm">Houston, TX</Text>
         </View>
         <View className="px-5 pt-9 pb-10 font-iregular">
           <View className="flex-row justify-between items-center mb-3">
@@ -112,4 +110,4 @@ const Outgoingcallsone = () => {
   );
 };
 
-export default Outgoingcallsone;
+export default OutgoingCallsOne;
