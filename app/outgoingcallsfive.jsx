@@ -1,7 +1,7 @@
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-const OutgoingCallsOne = () => {
+const OutgoingCallsFive = () => {
   return (
     <SafeAreaView>
       <View
@@ -11,21 +11,19 @@ const OutgoingCallsOne = () => {
         }}
       >
         <View className="text-xs flex-row justify-between items-center pt-4">
-          <Text className="text-black-100 font-isemibold">
-            Calling from WhatsApp
-          </Text>
+          <Text className="text-black-100 font-isemibold">Calling from</Text>
           <Text className="text-black-400">+1-2059276258</Text>
         </View>
         <View className="flex-col items-center justify-between pt-8 h-[208px]">
           <Image source={require("../assets/profile-pics.png")} />
-          <Text className="text-black-100 font-iregular">Calling..</Text>
+          <Text className="text-black-100 font-iregular">Calling</Text>
           <Text className="text-black-100 font-isemibold text-2xl">
             +1-2059276258
           </Text>
           <Text className="text-black-500 text-sm">Houston, TX</Text>
         </View>
         <View className="px-5 pt-9 pb-10 font-iregular">
-          <View className="flex-row justify-between items-center mb-3">
+          <View className="flex-row justify-between items-center mb-3 ">
             <View className="flex-col items-center justify-center">
               <TouchableOpacity className="rounded-full bg-grey-100 w-[72px] items-center justify-center h-[72px]">
                 <Image source={require("../assets/mute.png")} />
@@ -54,7 +52,10 @@ const OutgoingCallsOne = () => {
             </View>
             <View className="flex-col items-center justify-center">
               <TouchableOpacity className="rounded-full bg-grey-100 w-[72px] items-center justify-center h-[72px]">
-                <Image source={require("../assets/contact-two.png")} />
+                <Image
+                  className="opacity-20"
+                  source={require("../assets/contact-two.png")}
+                />
               </TouchableOpacity>
               <Text className="text-black-100 text-xs ">Contacts</Text>
             </View>
@@ -110,4 +111,4 @@ const OutgoingCallsOne = () => {
   );
 };
 
-export default OutgoingCallsOne;
+export default OutgoingCallsFive;
